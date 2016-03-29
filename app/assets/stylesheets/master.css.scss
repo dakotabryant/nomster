@@ -12,7 +12,8 @@
   border-radius: 5px;
 }
 body {
-  background-color: #e9e9e9;
+  // background-color: #e9e9e9;
+  background: url('/assets/footer_lodyas.png')
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 .place-heading {
   // color: #fff;
   font-family: Gotham;
-  border-bottom: solid black 1px;
+  border-bottom: solid #444 1px;
 }
 .sub-heading {
   color: #ff3300;
@@ -31,4 +32,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
   font-family: Gotham;
+}
+.navbar.navbar-inverse {
+  background: url('/assets/binding_dark.png');
+  border-radius: 0;
+  box-shadow: 0px 1px 3px black;
 }
