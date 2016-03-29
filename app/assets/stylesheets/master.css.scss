@@ -8,9 +8,27 @@
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  // background-color: rgba(100, 100, 100, .7);
+  border-radius: 5px;
+}
+body {
+  background-color: #e9e9e9;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   padding: 0px;
+}
+.place-heading {
+  // color: #fff;
+  font-family: Gotham;
+  border-bottom: solid black 1px;
+}
+.sub-heading {
+  color: #ff3300;
+  font-family: Gotham;
+  font-weight: 400;
+}
+p {
+  font-family: Gotham;
 }
